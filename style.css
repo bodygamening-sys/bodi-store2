@@ -1,0 +1,80 @@
+
+ body{
+margin: 0;
+
+font-family: 'Roboto', sans-serif
+ }
+
+
+   .header{
+background-color: #0171f9;
+display: flex;
+justify-content: space-between;
+align-items:center ;
+padding: 10px 50px;
+
+   } 
+ 
+.logo{
+
+    width: 100px;
+}
+.header-linke a {
+color: white;
+padding: 5px 15px;
+text-decoration: none;
+border-radius: 15px;
+
+}
+
+.header-linke a:hover{
+background-color: #2386fe;
+}
+
+.header-linke button{
+background-color: orange;
+padding: 5px 15px;
+border-radius: 15px;
+color: white;
+border: none;
+}
+
+.header-linke button:hover{
+
+    background-color: #ffc14e;
+}
+
+.landing{
+background-color: #0171f9;
+align-items: center;
+display: flex ;
+justify-content: space-between;
+padding: 10px 50px;
+color: #ffffff;
+}
+
+.landing-page-Search input {
+ border-radius: 50px;
+border: none;
+outline: none;
+padding:10px ;
+}
+
+.landing-page-Search button{
+background-color: orange;
+padding: 5px 15px;
+border-radius: 15px;
+color: white;
+border: none;
+position: absolute;
+left:  1000;
+height: 30px;
+
+}
+
+.landing-page-Search button:hover{
+
+
+    
+    background-color: #ffc14e;
+}
